@@ -42,7 +42,7 @@ body {
   }
 }
 
-.Wrapper-Page {
+.About-Me-Page {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -59,7 +59,7 @@ body {
     padding: 50px 0 50px 40px;
 
     .My-Photo {
-      background: url("photo.jpg") no-repeat;
+      background: url("../img/photo.jpg") no-repeat;
       background-size: contain;
       height: 215px;
       padding-top: 10px;
@@ -131,6 +131,13 @@ body {
     }
   }
 }
+.Projects-Page {
+  display: flex;
+  justify-content: center;
+  .Tree {
+    background: url(../img/tree.png);
+  }
+}
 //при уменьшении экрана
 @media screen and (max-width: 550px) {
   .Wrapper-Menu {
@@ -142,7 +149,7 @@ body {
       margin-right: 10px;
     }
   }
-  .Wrapper-Page {
+  .About-Me-Page {
     flex-direction: column;
     justify-content: center;
     align-items: center;

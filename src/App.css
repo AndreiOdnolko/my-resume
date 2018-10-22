@@ -39,12 +39,12 @@ body {
 .Wrapper-Menu .Menu-Categories span {
   font-size: 20px;
 }
-.Wrapper-Page {
+.About-Me-Page {
   display: flex;
   width: 100%;
   justify-content: center;
 }
-.Wrapper-Page .Contact-Information {
+.About-Me-Page .Contact-Information {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -54,56 +54,56 @@ body {
   margin: 50px 0;
   padding: 50px 0 50px 40px;
 }
-.Wrapper-Page .Contact-Information .My-Photo {
+.About-Me-Page .Contact-Information .My-Photo {
   background: url("../src/img/photo.jpg") no-repeat;
   background-size: contain;
   height: 215px;
   padding-top: 10px;
 }
-.Wrapper-Page .Contact-Information .My-Name {
+.About-Me-Page .Contact-Information .My-Name {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-right: 45px;
 }
-.Wrapper-Page .Contact-Information .My-Name .First-Name {
+.About-Me-Page .Contact-Information .My-Name .First-Name {
   font-weight: bold;
   font-size: 44px;
   padding: 0;
   margin: 0;
   color: white;
 }
-.Wrapper-Page .Contact-Information .My-Name .Surname {
+.About-Me-Page .Contact-Information .My-Name .Surname {
   font-size: 24px;
   padding: 0;
   margin: 0;
   color: white;
 }
-.Wrapper-Page .Contact-Information .My {
+.About-Me-Page .Contact-Information .My {
   padding-top: 20px;
   margin-right: 30px;
 }
-.Wrapper-Page .Contact-Information .My .Contact-Information-Header {
+.About-Me-Page .Contact-Information .My .Contact-Information-Header {
   margin-bottom: 0;
   font-weight: bold;
   font-size: 20px;
   color: white;
 }
-.Wrapper-Page .Contact-Information .My .Specific-Information {
+.About-Me-Page .Contact-Information .My .Specific-Information {
   margin-top: 0;
   font-size: 16px;
   color: white;
 }
-.Wrapper-Page .About-Me-Information {
+.About-Me-Page .About-Me-Information {
   display: flex;
   flex-direction: column;
   margin: 50px 0;
   padding: 0 5px 0 0;
 }
-.Wrapper-Page .About-Me-Information .Education-Experience-And-Skills {
+.About-Me-Page .About-Me-Information .Education-Experience-And-Skills {
   align-content: center;
 }
-.Wrapper-Page
+.About-Me-Page
   .About-Me-Information
   .Education-Experience-And-Skills
   .Information-Section-Name {
@@ -114,7 +114,7 @@ body {
   font-size: 30px;
   color: white;
 }
-.Wrapper-Page
+.About-Me-Page
   .About-Me-Information
   .Education-Experience-And-Skills
   .Full-Description {
@@ -124,10 +124,21 @@ body {
   font-size: 20px;
   color: white;
 }
-.Wrapper-Page
+.About-Me-Page
   .About-Me-Information
   .Education-Experience-And-Skills:last-child {
   margin-bottom: 20px;
+}
+.Projects-Page {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.Projects-Page .Tree {
+  background: url("../src/img/tree.png") no-repeat;
+  background-size: contain;
+  height: 300px;
+  width: 200px;
 }
 @media screen and (max-width: 550px) {
   .Wrapper-Menu {
@@ -139,12 +150,12 @@ body {
     padding-right: 10px;
     margin-right: 10px;
   }
-  .Wrapper-Page {
+  .About-Me-Page {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .Wrapper-Page .Contact-Information {
+  .About-Me-Page .Contact-Information {
     padding: 20px 0 20px 45px;
     border-right: none;
     margin-bottom: 0;

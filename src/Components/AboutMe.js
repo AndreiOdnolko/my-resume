@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class AboutMe extends Component {
   render() {
     return (
-      <div className="Wrapper-Page">
+      <div className="About-Me-Page">
         <div className="Contact-Information">
           <div className="My-Photo"> </div>
           <div className="My-Name">
@@ -52,7 +52,7 @@ class AboutMe extends Component {
           <div className="Education-Experience-And-Skills">
             <p className="Information-Section-Name">Опыт и умения</p>
             <p className="Full-Description">
-              -фриланс более 6 месяцев;
+              -фриланс более 6 месяцев: вёрстка, react;
               <br />
               -разработка сайтов-визиток с использованием
               <br />
@@ -63,6 +63,10 @@ class AboutMe extends Component {
               графического дизайна рекламной продукции и<br />
               прочей атрибутики для ресторанного бизнеса в<br />
               графическом редакторе Photoshop;
+              <br />
+              -уверенные знания vanilla JS (es6, prototype, map,
+              <br />
+              reduce, promise, fetch, etc.)
               <br />
               -командная работа с GIT (branches, merge, push,
               <br />
