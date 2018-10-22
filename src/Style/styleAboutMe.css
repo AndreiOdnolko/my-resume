@@ -57,7 +57,7 @@ body {
 .Wrapper-Page .Contact-Information .My-Photo {
   background: url("photo.jpg") no-repeat;
   background-size: contain;
-  height: 210px;
+  height: 215px;
   padding-top: 10px;
 }
 .Wrapper-Page .Contact-Information .My-Name {
@@ -137,7 +137,8 @@ body {
     align-items: center;
   }
   .Wrapper-Page .Contact-Information {
-    padding-top: 0;
+    padding: 20px 0 20px 45px;
     border-right: none;
+    margin-bottom: 0;
   }
 }

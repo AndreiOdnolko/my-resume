@@ -10,11 +10,11 @@ class MenuComponent extends Component {
         <div className="App">
           <div className="Wrapper-Menu">
             <ul className="Menu-Categories">
-              <li class="Category">
+              <li className="Category">
                 <Link to="/aboutMe">about Me</Link>
               </li>
               <span>/</span>
-              <li class="Category">
+              <li className="Category">
                 <Link to="/projects">My projects</Link>
               </li>
             </ul>
