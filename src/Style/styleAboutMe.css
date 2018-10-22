@@ -55,9 +55,9 @@ body {
   padding: 50px 0 50px 40px;
 }
 .Wrapper-Page .Contact-Information .My-Photo {
-  background: url("../src/img/photo.jpg") no-repeat;
+  background: url("photo.jpg") no-repeat;
   background-size: contain;
-  height: 215px;
+  height: 210px;
   padding-top: 10px;
 }
 .Wrapper-Page .Contact-Information .My-Name {
@@ -103,10 +103,7 @@ body {
 .Wrapper-Page .About-Me-Information .Education-Experience-And-Skills {
   align-content: center;
 }
-.Wrapper-Page
-  .About-Me-Information
-  .Education-Experience-And-Skills
-  .Information-Section-Name {
+.Wrapper-Page .About-Me-Information .Education-Experience-And-Skills .Information-Section-Name {
   margin: 20px 0 0 0;
   padding-left: 20px;
   background: #3f3f3f;
@@ -114,19 +111,14 @@ body {
   font-size: 30px;
   color: white;
 }
-.Wrapper-Page
-  .About-Me-Information
-  .Education-Experience-And-Skills
-  .Full-Description {
+.Wrapper-Page .About-Me-Information .Education-Experience-And-Skills .Full-Description {
   margin: 0;
   padding: 0 0 10px 20px;
   background: #3f3f3f;
   font-size: 20px;
   color: white;
 }
-.Wrapper-Page
-  .About-Me-Information
-  .Education-Experience-And-Skills:last-child {
+.Wrapper-Page .About-Me-Information .Education-Experience-And-Skills:last-child {
   margin-bottom: 20px;
 }
 @media screen and (max-width: 550px) {
