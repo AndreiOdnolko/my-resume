@@ -4,6 +4,7 @@ body {
   margin: 0 auto;
   background: #272727;
   font-family: "Montserrat Alternates", sans-serif;
+  color: white;
 }
 .Wrapper-Menu {
   display: flex;
@@ -13,7 +14,6 @@ body {
   align-content: center;
   border-bottom: 1px dashed #ffffff;
   background: rgba(255, 255, 255, 0.075);
-  margin-bottom: 60px;
 }
 .Wrapper-Menu .Menu-Categories {
   display: flex;
@@ -55,7 +55,7 @@ body {
   padding: 50px 0 50px 40px;
 }
 .About-Me-Page .Contact-Information .My-Photo {
-  background: url("../src/img/photo.jpg") no-repeat;
+  background: url("./img/photo.jpg") no-repeat;
   background-size: contain;
   height: 215px;
   padding-top: 10px;
@@ -103,10 +103,7 @@ body {
 .About-Me-Page .About-Me-Information .Education-Experience-And-Skills {
   align-content: center;
 }
-.About-Me-Page
-  .About-Me-Information
-  .Education-Experience-And-Skills
-  .Information-Section-Name {
+.About-Me-Page .About-Me-Information .Education-Experience-And-Skills .Information-Section-Name {
   margin: 20px 0 0 0;
   padding-left: 20px;
   background: #3f3f3f;
@@ -114,31 +111,161 @@ body {
   font-size: 30px;
   color: white;
 }
-.About-Me-Page
-  .About-Me-Information
-  .Education-Experience-And-Skills
-  .Full-Description {
+.About-Me-Page .About-Me-Information .Education-Experience-And-Skills .Full-Description {
   margin: 0;
   padding: 0 0 10px 20px;
   background: #3f3f3f;
   font-size: 20px;
   color: white;
 }
-.About-Me-Page
-  .About-Me-Information
-  .Education-Experience-And-Skills:last-child {
+.About-Me-Page .About-Me-Information .Education-Experience-And-Skills:last-child {
   margin-bottom: 20px;
 }
-.Projects-Page {
+.Wrapper-My-Projects {
   display: flex;
+  width: 100%;
   justify-content: center;
-  padding-top: 100px;
+  flex-direction: column;
 }
-.Projects-Page .Tree {
-  background: url("../src/img/tree.png") no-repeat;
+.Wrapper-My-Projects .first-line {
+  display: flex;
+  margin-top: 40px;
+}
+.Wrapper-My-Projects .first-line .wrapper-project-todolist {
+  display: flex;
+  padding: 0 30px 20px 30px;
+  justify-content: flex-start;
+  border-right: 1px solid white;
+}
+.Wrapper-My-Projects .first-line .wrapper-project-todolist .full-information-about-todolist {
+  display: flex;
+  flex-direction: column;
+}
+.Wrapper-My-Projects .first-line .wrapper-project-todolist .full-information-about-todolist .name-project {
+  font-size: 26px;
+  margin: 0%;
+  text-align: center;
+}
+.Wrapper-My-Projects .first-line .wrapper-project-todolist .full-information-about-todolist .about-todolist {
+  padding-top: 20px;
+  font-size: 16px;
+  margin: 0%;
+}
+.Wrapper-My-Projects .first-line .wrapper-project-todolist .wrapper-image {
+  display: flex;
+  padding-left: 20px;
+}
+.Wrapper-My-Projects .first-line .wrapper-project-todolist .wrapper-image .image-todolist {
+  background: url("img/todolist.png") no-repeat;
   background-size: contain;
-  height: 300px;
-  width: 200px;
+  width: 250px;
+  height: 228px;
+}
+.Wrapper-My-Projects .first-line .wrapper-project-todolist .wrapper-image .image-todolist:hover {
+  box-shadow: 0 0 30px #ffffff;
+}
+.Wrapper-My-Projects .first-line .wrapper-project-calculator {
+  display: flex;
+  padding: 0 40px 40px 40px;
+}
+.Wrapper-My-Projects .first-line .wrapper-project-calculator .full-information-about-calculator {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Wrapper-My-Projects .first-line .wrapper-project-calculator .full-information-about-calculator .name-project {
+  font-size: 26px;
+  margin: 0%;
+  text-align: center;
+}
+.Wrapper-My-Projects .first-line .wrapper-project-calculator .full-information-about-calculator .about-calculator {
+  padding-top: 20px;
+  font-size: 16px;
+  margin: 0%;
+}
+.Wrapper-My-Projects .first-line .wrapper-project-calculator .wrapper-image {
+  display: flex;
+  padding-left: 50px;
+}
+.Wrapper-My-Projects .first-line .wrapper-project-calculator .wrapper-image .image-calculator {
+  background: url("img/calc.png") no-repeat;
+  background-size: contain;
+  width: 245px;
+  height: 286px;
+}
+.Wrapper-My-Projects .first-line .wrapper-project-calculator .wrapper-image .image-calculator:hover {
+  box-shadow: 0 0 30px #fff5f5;
+}
+.Wrapper-My-Projects .second-line {
+  display: flex;
+  margin-top: 40px;
+}
+.Wrapper-My-Projects .second-line .wrapper-project-hi5 {
+  display: flex;
+  padding: 0 28px 20px 30px;
+  border-right: 1px solid white;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+.Wrapper-My-Projects .second-line .wrapper-project-hi5 .full-information-about-hi5 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Wrapper-My-Projects .second-line .wrapper-project-hi5 .full-information-about-hi5 .name-project {
+  font-size: 26px;
+  margin: 0%;
+  text-align: center;
+}
+.Wrapper-My-Projects .second-line .wrapper-project-hi5 .full-information-about-hi5 .about-hi5 {
+  padding-top: 20px;
+  font-size: 16px;
+  margin: 0%;
+}
+.Wrapper-My-Projects .second-line .wrapper-project-hi5 .wrapper-image {
+  display: flex;
+  padding-left: 20px;
+}
+.Wrapper-My-Projects .second-line .wrapper-project-hi5 .wrapper-image .image-hi5 {
+  background: url("img/first.png") no-repeat;
+  background-size: contain;
+  width: 250px;
+  height: 200px;
+}
+.Wrapper-My-Projects .second-line .wrapper-project-hi5 .wrapper-image .image-hi5:hover {
+  box-shadow: 0 0 30px #ffffff;
+}
+.Wrapper-My-Projects .second-line .wrapper-project-fruit-basket {
+  display: flex;
+  padding: 0 10px 40px 40px;
+}
+.Wrapper-My-Projects .second-line .wrapper-project-fruit-basket .full-information-about-fruit-basket {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Wrapper-My-Projects .second-line .wrapper-project-fruit-basket .full-information-about-fruit-basket .name-project {
+  font-size: 26px;
+  margin: 0%;
+  text-align: center;
+}
+.Wrapper-My-Projects .second-line .wrapper-project-fruit-basket .full-information-about-fruit-basket .about-fruit-basket {
+  padding-top: 20px;
+  font-size: 16px;
+  margin: 0%;
+}
+.Wrapper-My-Projects .second-line .wrapper-project-fruit-basket .wrapper-image {
+  display: flex;
+  padding: 0 40px;
+}
+.Wrapper-My-Projects .second-line .wrapper-project-fruit-basket .wrapper-image .image-fruit-basket {
+  background: url("img/fruitBasket.png") no-repeat;
+  background-size: contain;
+  width: 250px;
+  height: 289px;
+}
+.Wrapper-My-Projects .second-line .wrapper-project-fruit-basket .wrapper-image .image-fruit-basket:hover {
+  box-shadow: 0 0 30px #ffffff;
 }
 @media screen and (max-width: 550px) {
   .Wrapper-Menu {
@@ -159,5 +286,70 @@ body {
     padding: 20px 0 20px 45px;
     border-right: none;
     margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .Wrapper-My-Projects {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .Wrapper-My-Projects .first-line {
+    flex-direction: column;
+  }
+  .Wrapper-My-Projects .first-line .wrapper-project-todolist {
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid white;
+  }
+  .Wrapper-My-Projects .first-line .wrapper-project-todolist .full-information-about-todolist {
+    align-items: center;
+  }
+  .Wrapper-My-Projects .first-line .wrapper-project-todolist .wrapper-image {
+    padding-top: 20px;
+    padding-left: 0;
+  }
+  .Wrapper-My-Projects .first-line .wrapper-project-calculator {
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-top: 30px;
+  }
+  .Wrapper-My-Projects .first-line .wrapper-project-calculator .full-information-about-calculator {
+    align-items: center;
+  }
+  .Wrapper-My-Projects .first-line .wrapper-project-calculator .wrapper-image {
+    padding-top: 20px;
+    padding-left: 0;
+  }
+  .Wrapper-My-Projects .second-line {
+    flex-direction: column;
+  }
+  .Wrapper-My-Projects .second-line .wrapper-project-hi5 {
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+  }
+  .Wrapper-My-Projects .second-line .wrapper-project-hi5 .full-information-about-hi5 {
+    align-items: center;
+  }
+  .Wrapper-My-Projects .second-line .wrapper-project-hi5 .wrapper-image {
+    padding-top: 20px;
+    padding-left: 0;
+  }
+  .Wrapper-My-Projects .second-line .wrapper-project-fruit-basket {
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid white;
+  }
+  .Wrapper-My-Projects .second-line .wrapper-project-fruit-basket .full-information-about-fruit-basket {
+    align-items: center;
+  }
+  .Wrapper-My-Projects .second-line .wrapper-project-fruit-basket .wrapper-image {
+    padding-top: 20px;
+    padding-left: 0;
   }
 }

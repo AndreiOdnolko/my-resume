@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, HashRouter, Route } from "react-router-dom";
+import { Link, HashRouter, Route} from "react-router-dom";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 
@@ -19,8 +19,10 @@ class MenuComponent extends Component {
               </li>
             </ul>
           </div>
+          <Route exact path="/" component={AboutMe} />
           <Route path="/aboutMe" component={AboutMe} />
           <Route path="/projects" component={Projects} />
+          
         </div>
       </HashRouter>
     );
