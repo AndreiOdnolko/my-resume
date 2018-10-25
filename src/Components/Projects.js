@@ -7,7 +7,7 @@ class Projects extends Component {
         <div className="first-line">
             <div className="wrapper-project-todolist">
                 <div className="full-information-about-todolist">
-                    <p className="name-project">to do list</p>
+                    <p className="name-project">to do list<span className="star">*</span></p>
                     <p className="about-todolist">
                         -Работа с обьектами;<br/>
                         -Работа с шаблонными строками;<br/>
@@ -26,7 +26,7 @@ class Projects extends Component {
             </div>
             <div className="wrapper-project-calculator">
                 <div className="full-information-about-calculator">
-                    <p className="name-project">calculator</p>
+                    <p className="name-project">calculator<span className="star">*</span></p>
                     <p className="about-calculator">
                         -Работа с обьектами;<br/>
                         -Работа с шаблонными строками;<br/>
@@ -42,7 +42,7 @@ class Projects extends Component {
         <div className="second-line">
             <div className="wrapper-project-hi5">
                 <div className="full-information-about-hi5">
-                    <p className="name-project">hi5</p>
+                    <p className="name-project">hi5<span className="star">*</span></p>
                     <p className="about-hi5">
                         -Создание макета-сайта и лого используя Photoshop;<br/>
                         -Верстка с ипользованием flexbox;<br/>
@@ -57,7 +57,7 @@ class Projects extends Component {
             <div className="wrapper-project-fruit-basket">
 
                 <div className="full-information-about-fruit-basket">
-                    <p className="name-project">fruit-basket</p>
+                    <p className="name-project">fruit-basket<span className="star">*</span></p>
                     <p className="about-fruit-basket">
                         -Работа с обьектами;<br/>
                         -Работа с шаблонными строками;<br/>
@@ -73,6 +73,7 @@ class Projects extends Component {
                 </div>
             </div>
         </div>
+        <span className="wrapper-about-start"><span className="star">*</span> - нажмите на картинку что бы просмотреть проект</span>
     </div>
     );
   }

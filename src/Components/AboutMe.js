@@ -28,10 +28,8 @@ class AboutMe extends Component {
           </div>
           <div className="My">
             <p className="Contact-Information-Header">Git:</p>
-            <a
-              href="https://gitlab.com/Odnolko_Andrew"
-              className="Specific-Information Link-My-Git"
-            >
+            <a href="https://gitlab.com/Odnolko_Andrew"
+              className="Specific-Information Link-My-Git">
               gitlab.com/Odnolko_Andrew
             </a>
           </div>
@@ -79,22 +77,14 @@ class AboutMe extends Component {
           <div className="Education-Experience-And-Skills">
             <p className="Information-Section-Name">Навыки</p>
             <p className="Full-Description">
-              -HTML5;
-              <br />
-              -CSS3, LESS, SASS, Bootstrap;
-              <br />
-              -JavaScript;
-              <br />
-              -React и Redux;
-              <br />
-              -GitLab, GitHub;
-              <br />
-              -ООП, SOLID;
-              <br />
-              -Ajax;
-              <br />
-              -Abode Photoshop, CorelDRAW;
-              <br />
+              -HTML5;<br />
+              -CSS3, LESS, SASS, Bootstrap;<br />
+              -JavaScript;<br />
+              -React и Redux;<br />
+              -GitLab, GitHub;<br />
+              -ООП, SOLID;<br />
+              -Ajax;<br />
+              -Abode Photoshop, CorelDRAW;<br />
               -VS Code;
             </p>
           </div>

@@ -21,8 +21,7 @@ class MenuComponent extends Component {
           </div>
           <Route exact path="/" component={AboutMe} />
           <Route path="/aboutMe" component={AboutMe} />
-          <Route path="/projects" component={Projects} />
-          
+          <Route path="/projects" component={Projects} />          
         </div>
       </HashRouter>
     );
