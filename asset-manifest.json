@@ -1,14 +1,15 @@
 {
-  "main.css": "/my-resume/static/css/main.7b811ee8.chunk.css",
-  "main.js": "/my-resume/static/js/main.5e8d2aa0.chunk.js",
-  "main.js.map": "/my-resume/static/js/main.5e8d2aa0.chunk.js.map",
-  "static/js/1.929c12ff.chunk.js": "/my-resume/static/js/1.929c12ff.chunk.js",
-  "static/js/1.929c12ff.chunk.js.map": "/my-resume/static/js/1.929c12ff.chunk.js.map",
+  "main.css": "/my-resume/static/css/main.bc99928c.chunk.css",
+  "main.js": "/my-resume/static/js/main.1c6c7a85.chunk.js",
+  "main.js.map": "/my-resume/static/js/main.1c6c7a85.chunk.js.map",
+  "static/js/1.c4d3e886.chunk.js": "/my-resume/static/js/1.c4d3e886.chunk.js",
+  "static/js/1.c4d3e886.chunk.js.map": "/my-resume/static/js/1.c4d3e886.chunk.js.map",
   "runtime~main.js": "/my-resume/static/js/runtime~main.54fe26f0.js",
   "runtime~main.js.map": "/my-resume/static/js/runtime~main.54fe26f0.js.map",
-  "static/media/App.css": "/my-resume/static/media/photo.74be3c0c.jpg",
-  "static/css/main.7b811ee8.chunk.css.map": "/my-resume/static/css/main.7b811ee8.chunk.css.map",
+  "static/media/AboutMe.css": "/my-resume/static/media/photo.74be3c0c.jpg",
+  "static/media/Projects.css": "/my-resume/static/media/todolist.ccebbd0a.png",
+  "static/css/main.bc99928c.chunk.css.map": "/my-resume/static/css/main.bc99928c.chunk.css.map",
   "index.html": "/my-resume/index.html",
-  "precache-manifest.61ea06bd1c1e6887d0fbc8f20e4c6748.js": "/my-resume/precache-manifest.61ea06bd1c1e6887d0fbc8f20e4c6748.js",
+  "precache-manifest.535277545c7b0b625c9b1f3f76be0089.js": "/my-resume/precache-manifest.535277545c7b0b625c9b1f3f76be0089.js",
   "service-worker.js": "/my-resume/service-worker.js"
 }
