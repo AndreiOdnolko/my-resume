@@ -1,0 +1,250 @@
+.Wrapper-My-Projects {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;  
+  .first-line {
+    display: flex;
+    margin-top: 40px;
+
+    .wrapper-project-todolist {
+      display: flex;
+      padding: 0 30px 20px 30px;
+      justify-content: flex-start;
+      border-right: 1px solid white;
+
+      .full-information-about-todolist {
+        display: flex;
+        flex-direction: column;
+
+        .name-project {
+          font-size: 26px;
+          margin: 0%;
+          text-align: center;
+          .star {
+            color: red;
+          }
+        }
+        .about-todolist {
+          padding-top: 20px;
+          font-size: 16px;
+          margin: 0%;
+        }
+      }
+      .wrapper-image {
+        display: flex;
+        padding-left: 20px;
+        .image-todolist {
+          background: url("../img/todolist.png") no-repeat;
+          background-size: contain;
+          width: 249px;
+          height: 227px;
+          &:hover {
+            box-shadow: 0 0 30px rgb(255, 255, 255);
+          }
+        }
+      }
+    }
+    .wrapper-project-calculator {
+      display: flex;
+      padding: 0 40px 40px 40px;
+
+      .full-information-about-calculator {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .name-project {
+          font-size: 26px;
+          margin: 0%;
+          text-align: center;
+          .star {
+            color: red;
+          }
+        }
+        .about-calculator {
+          padding-top: 20px;
+          font-size: 16px;
+          margin: 0%;
+        }
+      }
+      .wrapper-image {
+        display: flex;
+        padding-left: 50px;
+
+        .image-calculator {
+          background: url("../img/calc.png") no-repeat;
+          background-size: contain;
+          width: 244px;
+          height: 285px;
+          &:hover {
+            box-shadow: 0 0 30px rgb(255, 245, 245);
+          }
+        }
+      }
+    }
+  }
+  .second-line {
+    display: flex;
+    margin-top: 40px;
+    .wrapper-project-hi5 {
+      display: flex;
+      padding: 0 28px 20px 30px;
+      border-right: 1px solid white;
+      justify-content: flex-start;
+      margin-bottom: 40px;
+      .full-information-about-hi5 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .name-project {
+          font-size: 26px;
+          margin: 0%;
+          text-align: center;
+          .star {
+            color: red;
+          }
+        }
+        .about-hi5 {
+          padding-top: 20px;
+          font-size: 16px;
+          margin: 0%;
+        }
+      }
+      .wrapper-image {
+        display: flex;
+        padding-left: 29px;
+
+        .image-hi5 {
+          background: url("../img/first.png") no-repeat;
+          background-size: contain;
+          width: 250px;
+          height: 200px;
+          &:hover {
+            box-shadow: 0 0 30px rgb(255, 255, 255);
+          }
+        }
+      }
+    }
+    .wrapper-project-fruit-basket {
+      display: flex;
+      padding: 0 10px 40px 40px;
+
+      .full-information-about-fruit-basket {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .name-project {
+          font-size: 26px;
+          margin: 0%;
+          text-align: center;
+          .star {
+            color: red;
+          }
+        }
+        .about-fruit-basket {
+          padding-top: 20px;
+          font-size: 16px;
+          margin: 0%;
+        }
+      }
+      .wrapper-image {
+        display: flex;
+        padding: 0 40px;
+
+        .image-fruit-basket {
+          background: url("../img/fruitBasket.png") no-repeat;
+          background-size: contain;
+          width: 250px;
+          height: 289px;
+          &:hover {
+            box-shadow: 0 0 30px rgb(255, 255, 255);
+          }
+        }
+      }
+    }
+  }
+  .wrapper-about-start {
+    padding: 20px;
+    border-top: 1px dashed white;
+  }
+  .wrapper-about-start .star {
+    color: red;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .Wrapper-My-Projects {
+    flex-direction: column;
+    padding-left: 0;
+
+    .first-line {
+      flex-direction: column;
+      margin-top: 10px;
+      .wrapper-project-todolist {
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        border-bottom: 1px solid white;
+
+        .full-information-about-todolist {
+          align-items: center;
+        }
+        .wrapper-image {
+          padding-top: 20px;
+          padding-left: 0;
+          margin-bottom: 20px;
+
+        }
+      }
+      .wrapper-project-calculator {
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid white;
+        padding-top: 30px;
+
+        .full-information-about-calculator {
+          align-items: center;
+        }
+        .wrapper-image {
+          padding-top: 20px;
+          padding-left: 0;
+        }
+      }
+    }
+    .second-line {
+      flex-direction: column;
+      .wrapper-project-hi5 {
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        padding-bottom: 30px;
+        border-bottom: 1px solid white;
+        .full-information-about-hi5 {
+          align-items: center;
+        }
+        .wrapper-image {
+          padding-top: 20px;
+          padding-left: 0;
+        }
+      }
+      .wrapper-project-fruit-basket {
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        border-bottom: 1px solid white;
+        .full-information-about-fruit-basket {
+          align-items: center;          
+        }
+        .wrapper-image {
+          padding-top: 20px;
+          padding-right: 0;
+          margin-right: 67px;
+        }
+      }
+    }
+    .wrapper-about-start {
+      border: none;
+    }
+  }
+}
