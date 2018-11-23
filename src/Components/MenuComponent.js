@@ -5,6 +5,8 @@ import AboutMeWithHoc from "./AboutMe";
 import ProjectsWithHoc from "./Projects";
 import british from '../img/british.png';
 import russia from '../img/russia.png';
+import Footer from "./Footer";
+
 import i18n from '../i18n';
 import { withNamespaces } from 'react-i18next';
 
@@ -35,6 +37,7 @@ const MenuComponent = ({t}) => {
           <Route exact path="/" component={AboutMeWithHoc} />
           <Route path="/aboutMe" component={AboutMeWithHoc} />
           <Route path="/projects" component={ProjectsWithHoc} />
+          <Footer />
         </div>
       </HashRouter>
     );

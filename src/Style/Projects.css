@@ -241,6 +241,7 @@
     border: none;
     border-bottom: 1px solid white;
     width: 90%;
+    padding: 0;
     padding-bottom: 30px;
   }
   .Wrapper-My-Projects .second-line .wrapper-project-fruit-basket .full-information-about-fruit-basket {

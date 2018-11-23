@@ -19,10 +19,9 @@
   padding-right: 10px;
   cursor: pointer;
   opacity: 1;
-  transition: opacity 124ms linear;
 }
 .Wrapper-Menu .Wrapper-Language:hover {
-  opacity: 0.6;
+  opacity: .6;
   transform: scale(1.05);
 }
 .Wrapper-Menu .Menu-Categories {
@@ -70,6 +69,7 @@
     padding-right: 1px;
     margin-right: 10px;
     padding-left: 30px;
+    margin-top: 0;
   }
   .Wrapper-Menu span {
     display: none;

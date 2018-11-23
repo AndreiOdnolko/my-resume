@@ -1,0 +1,52 @@
+.Wrapper-Footer {
+  display: flex;
+  height: 60px;
+  background: rgba(245, 245, 245, 0.075);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.Wrapper-Footer .footer-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.Wrapper-Footer .footer-container .my-footer-name {
+  color: #bdbdbd;
+  cursor: pointer;
+}
+.Wrapper-Footer .footer-container .my-footer-name:hover {
+  color: white;
+}
+.Wrapper-Footer .footer-container .link-wrapper {
+  display: flex;
+}
+.Wrapper-Footer .footer-container .link-wrapper .fa-linkedin {
+  color: #bdbdbd;
+  margin-right: 20px;
+}
+.Wrapper-Footer .footer-container .link-wrapper .fa-linkedin:hover {
+  color: white;
+}
+.Wrapper-Footer .footer-container .link-wrapper .fa-telegram-plane {
+  color: #bdbdbd;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.Wrapper-Footer .footer-container .link-wrapper .fa-telegram-plane:hover {
+  color: white;
+}
+.Wrapper-Footer .footer-container .link-wrapper .fa-gitlab {
+  color: #bdbdbd;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.Wrapper-Footer .footer-container .link-wrapper .fa-gitlab:hover {
+  color: white;
+}
+.Wrapper-Footer .footer-container .link-wrapper .fa-github {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+.Wrapper-Footer .footer-container .link-wrapper .fa-github:hover {
+  color: white;
+}
