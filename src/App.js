@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
-import MenuComponent from "./Components/MenuComponent";
+import './i18n';
 
-class App extends Component {
-  render() {
-    return <MenuComponent />;
+import MenuComponentWithHoc from "./Components/MenuComponent";
+
+ const App = () => {
+    return <MenuComponentWithHoc />;
   }
-}
 
 export default App;

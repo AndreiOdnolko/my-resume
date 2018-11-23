@@ -1,28 +1,30 @@
-import React, { Component } from "react";
+import React from "react";
 import "../Style/AboutMe.css";
-class AboutMe extends Component {
-  render() {
+import { withNamespaces } from 'react-i18next';
+
+
+const AboutMe = ({t}) => {
     return (
       <div className="About-Me-Page">
         <div className="Contact-Information">
           <div className="My-Photo"> </div>
           <div className="My-Name">
-            <p className="First-Name">Андрей</p>
-            <p className="Surname"> Однолько</p>
+            <p className="First-Name">{t('Andrew')}</p>
+            <p className="Surname">{t('Odnolko')}</p>
           </div>
           <div className="My">
-            <p className="Contact-Information-Header">Адрес:</p>
+            <p className="Contact-Information-Header">{t('Address')}</p>
             <p className="Specific-Information">
-              Минск,<br /> 
-              Беларусь
+              {t('Minsk')},<br /> 
+              {t('Belarus')}
             </p>
           </div>
           <div className="My">
-            <p className="Contact-Information-Header">Телефон:</p>
+            <p className="Contact-Information-Header">{t('Phone')}:</p>
             <p className="Specific-Information">+37544-5852219</p>
           </div>
           <div className="My">
-            <p className="Contact-Information-Header">E-mail:</p>
+            <p className="Contact-Information-Header">{t('E-mail')}:</p>
             <p className="Specific-Information">odnolkoandrei92@gmail.com</p>
           </div>
           <div className="My">
@@ -32,58 +34,56 @@ class AboutMe extends Component {
         </div>
         <div className="About-Me-Information">
           <div className="Education-Experience-And-Skills">
-            <p className="Information-Section-Name">Образование</p>
+            <p className="Information-Section-Name">{t('Education')}</p>
             <p className="Full-Description">
-              Белорусский национальный технический университет.<br />
-              Механико-технологический факультет.<br />
-              “Металлургическая обработка черных и цветных<br />
-              металлов”
+            {t('Belarusian National Technical University')}.<br />
+            {t('Faculty of Mechanics and Technology')}.<br />              
             </p>
           </div>
           <div className="Education-Experience-And-Skills">
-            <p className="Information-Section-Name">Опыт и умения</p>
+            <p className="Information-Section-Name">{t('Experience and skills')}</p>
             <p className="Full-Description">
-              -фриланс более 6 месяцев: вёрстка, react;<br />
-              -разработка сайтов-визиток с использованием<br />
-              веб-технологий HTML5, CSS3, JS, Ajax;<br />
-              -разработка макетов сайтов и реализация<br />
-              графического дизайна рекламной продукции и<br />
-              прочей атрибутики для ресторанного бизнеса в<br />
-              графическом редакторе Photoshop;<br />
-              -уверенные знания vanilla JS (es6, prototype, map,<br />
+              -{t('freelance more than 7 months')};<br />
+              -{t('development of business cards with the use')}<br />
+              {t('of web technologies HTML5, CSS3, JS, Ajax')};<br />
+              -{t('development of site layouts and the implementation')}<br />
+              {t('of graphic advertising products and')}<br />
+              {t('other attributes for the restaurant business in')}<br />
+              {t('the Photoshop graphic editor')};<br />
+              -{t('confident knowledge of vanilla js')}<br />
               reduce, promise, fetch, etc.)<br />
-              -командная работа с GIT (branches, merge, push,<br />
+              -{t('team work with git')},<br />
               pull, commit);<br />
-              -работа с ajax запросами с использованием jquery<br />
-              и axios;
+              -{t('work with ajax queries using jquery')}<br />
+              {t('and axios')};
             </p>
           </div>
           <div className="Education-Experience-And-Skills">
-            <p className="Information-Section-Name">Навыки</p>
+            <p className="Information-Section-Name">{t('Skills')}</p>
             <p className="Full-Description">
               -HTML5;<br />
               -CSS3, LESS, SASS, Bootstrap;<br />
               -JavaScript;<br />
               -React и Redux;<br />
               -GitLab, GitHub;<br />
-              -ООП, SOLID;<br />
+              -ООP, SOLID;<br />
               -Ajax;<br />
               -Abode Photoshop, CorelDRAW;<br />
-              -VS Code;
+              -VS Code, WebStorm;
             </p>
           </div>
           <div className="Education-Experience-And-Skills">
-            <p className="Information-Section-Name">Дополнительные знания</p>
+            <p className="Information-Section-Name">{t('Additional knowledge')}</p>
             <p className="Full-Description">
-              Уровень знания Английского - pre-intermidiate<br />
-              (уверенно читаю техническую литературу,<br />
-              разговариваю на несложные темы)
+              {t('Level of knowledge of English')}<br />
+              {t('I confidently read technical literature')},<br />
+              {t('and talk on simple topics')}
             </p>
           </div>
         </div>
       </div>
     );
   }
-}
 
-export default AboutMe;
+  const AboutMeWithHoc = withNamespaces()(AboutMe);
+export default AboutMeWithHoc;

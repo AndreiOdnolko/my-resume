@@ -1,25 +1,25 @@
-import React, { Component } from "react";
+import React from "react";
 import "../Style/Projects.css";
+import { withNamespaces } from 'react-i18next';
 
-class Projects extends Component {
-  render() {
+const Projects = ({t})=> {  
     return (
       <div className="Wrapper-My-Projects">
         <div className="first-line">
           <div className="wrapper-project-todolist">
             <div className="full-information-about-todolist">
-              <p className="name-project">to do list<span className="star">*</span></p>
+              <p className="name-project">{t('to do list')}<span className="star">*</span></p>
               <p className="about-todolist">
-                -Работа с объектами;<br />
-                -Работа с шаблонными строками;<br />
-                -Ajax запросы с использование jquery;<br />
+                -{t('Work with objects')};<br />
+                -{t('Working with patterned strings')};<br />
+                -{t('Ajax requests using jquery')};<br />
                 (get, post, delete, put)<br />
-                -Использование синтаксиса ES6;<br />
-                -Использование promise при работе с ajax запросами;<br />
-                -Соблюдение принципа Dependency Injection;<br />
-                -Верстка с использованием flexbox;<br />
-                -Верстка с использованием bootstrap;<br />
-                -Работа с Less;<br />
+                -{t('Using ES6 syntax')};<br />
+                -{t('Using promise when working with ajax requests')};<br />
+                -{t('Adherence to the principle Dependency Injection')};<br />
+                -{t('Layout with flexbox')};<br />
+                -{t('Layout with bootstrap')};<br />
+                -{t('Work with Less')};<br />
               </p>
             </div>
             <div className="wrapper-image">
@@ -28,12 +28,12 @@ class Projects extends Component {
           </div>
           <div className="wrapper-project-calculator">
             <div className="full-information-about-calculator">
-              <p className="name-project">calculator<span className="star">*</span></p>
+              <p className="name-project">{t('calculator')}<span className="star">*</span></p>
               <p className="about-calculator">
-                -Работа с объектами;<br />
-                -Работа с шаблонными строками;<br />
-                -Использование синтаксиса ES6;<br />
-                -Верстка с использованием flexbox;<br />
+                -{t('Work with objects')};<br />
+                -{t('Working with patterned strings')};<br />
+                -{t('Using ES6 syntax')};<br />
+                -{t('Layout with flexbox')};<br />
               </p>
             </div>
             <div className="wrapper-image">
@@ -47,10 +47,10 @@ class Projects extends Component {
               <p className="name-project">hi5<span className="star">*</span>
               </p>
               <p className="about-hi5">
-                -Разработка дизайна и логотипа с нуля (Photoshop);<br />
-                -Верстка с использованием flexbox;<br />
-                -Верстка с использованием Less;<br />
-                -Работа с jquery;</p>  
+                -{t('website design development from scratch')} (Photoshop);<br />
+                -{t('Layout with flexbox')};<br />
+                -{t('Work with Less')};<br />
+                -{t('Work with jquery')};</p>  
             </div>
             <div className="wrapper-image">
               <a href="https://odnolko_andrew.gitlab.io/hi5-metropol" className="image-hi5"> </a>
@@ -58,17 +58,17 @@ class Projects extends Component {
           </div>
           <div className="wrapper-project-fruit-basket">
             <div className="full-information-about-fruit-basket">
-              <p className="name-project">fruit basket<span className="star">*</span>
+              <p className="name-project">{t('fruit basket')}<span className="star">*</span>
               </p>
               <p className="about-fruit-basket">
-                -Работа с объектами;<br />
-                -Работа с шаблонными строками;<br />
-                -Использование синтаксиса ES6;<br />
-                -Работа с Local Storage;<br />
+                -{t('Work with objects')};<br />
+                -{t('Working with patterned strings')};<br />
+                -{t('Using ES6 syntax')};<br />
+                -{t('Work with Local Storage')};<br />
                 (setItem, getItem, clear)<br />
-                -Верстка с использованием flexbox;<br />
-                -Верстка с использованием bootstrap;<br />
-                -Верстка с использованием Less;<br />
+                -{t('Layout with flexbox')};<br />
+                -{t('Layout with bootstrap')};<br />
+                -{t('Work with Less')};<br />
               </p>
             </div>
             <div className="wrapper-image">
@@ -77,10 +77,11 @@ class Projects extends Component {
           </div>
         </div>
         <span className="wrapper-about-start">
-          <span className="star">*</span> - нажмите на изображение что бы просмотреть проект</span>
+          <span className="star">*</span> - {t('to click on the image to view the project')}</span>
       </div>
     );
   }
-}
 
-export default Projects;
+const ProjectsWithHoc = withNamespaces()(Projects) 
+
+export default ProjectsWithHoc;

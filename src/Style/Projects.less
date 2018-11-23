@@ -6,16 +6,20 @@
   .first-line {
     display: flex;
     margin-top: 40px;
+    width: 100%;
+    height: 50%;
 
     .wrapper-project-todolist {
       display: flex;
       padding: 0 30px 20px 30px;
       justify-content: flex-start;
+      width: 50%;
       border-right: 1px solid white;
 
       .full-information-about-todolist {
         display: flex;
         flex-direction: column;
+        width: 100%;
 
         .name-project {
           font-size: 26px;
@@ -33,7 +37,7 @@
       }
       .wrapper-image {
         display: flex;
-        padding-left: 20px;
+        padding-left: 50px;
         .image-todolist {
           background: url("../img/todolist.png") no-repeat;
           background-size: contain;
@@ -48,7 +52,7 @@
     .wrapper-project-calculator {
       display: flex;
       padding: 0 40px 40px 40px;
-
+      width: 50%;
       .full-information-about-calculator {
         display: flex;
         flex-direction: column;
@@ -69,7 +73,7 @@
       }
       .wrapper-image {
         display: flex;
-        padding-left: 50px;
+        padding-right: 40px;
 
         .image-calculator {
           background: url("../img/calc.png") no-repeat;
@@ -86,9 +90,12 @@
   .second-line {
     display: flex;
     margin-top: 40px;
+    width: 100%;
+    height: 50%;
     .wrapper-project-hi5 {
       display: flex;
       padding: 0 28px 20px 30px;
+      width: 50%;
       border-right: 1px solid white;
       justify-content: flex-start;
       margin-bottom: 40px;
@@ -128,7 +135,8 @@
     }
     .wrapper-project-fruit-basket {
       display: flex;
-      padding: 0 10px 40px 40px;
+      padding: 0 40px 40px 40px;
+      width: 50%;
 
       .full-information-about-fruit-basket {
         display: flex;
@@ -151,7 +159,7 @@
       }
       .wrapper-image {
         display: flex;
-        padding: 0 40px;
+        padding-right: 40px;
 
         .image-fruit-basket {
           background: url("../img/fruitBasket.png") no-repeat;
@@ -177,15 +185,21 @@
   .Wrapper-My-Projects {
     flex-direction: column;
     padding-left: 0;
+    width: 100%;
 
     .first-line {
       flex-direction: column;
       margin-top: 10px;
+      align-items: center;
+
       .wrapper-project-todolist {
         flex-direction: column;
         align-items: center;
         border: none;
         border-bottom: 1px solid white;
+        width: 90%;
+        padding: 0;
+        padding-bottom: 10px;
 
         .full-information-about-todolist {
           align-items: center;
@@ -201,25 +215,30 @@
         flex-direction: column;
         align-items: center;
         border-bottom: 1px solid white;
-        padding-top: 30px;
-
+        width: 90%;
+        padding: 30px 0;
         .full-information-about-calculator {
           align-items: center;
         }
         .wrapper-image {
           padding-top: 20px;
           padding-left: 0;
+          padding-right: 0;
         }
       }
     }
     .second-line {
       flex-direction: column;
+      align-items: center;
       .wrapper-project-hi5 {
         flex-direction: column;
         align-items: center;
         border: none;
-        padding-bottom: 30px;
         border-bottom: 1px solid white;
+        width: 90%;
+        padding: 0;
+        padding-bottom: 30px;
+
         .full-information-about-hi5 {
           align-items: center;
         }
@@ -233,13 +252,15 @@
         align-items: center;
         border: none;
         border-bottom: 1px solid white;
+        width: 90%;
+        padding-bottom: 30px;
+
         .full-information-about-fruit-basket {
           align-items: center;          
         }
         .wrapper-image {
           padding-top: 20px;
           padding-right: 0;
-          margin-right: 67px;
         }
       }
     }
