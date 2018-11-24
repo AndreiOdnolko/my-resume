@@ -1,11 +1,12 @@
 import React from "react";
-import { Link, HashRouter, Route } from "react-router-dom";
+import { NavLink, HashRouter, Route } from "react-router-dom";
 import "../Style/MenuComponents.css";
 import AboutMeWithHoc from "./AboutMe";
 import ProjectsWithHoc from "./Projects";
 import british from '../img/british.png';
 import russia from '../img/russia.png';
 import Footer from "./Footer";
+
 
 import i18n from '../i18n';
 import { withNamespaces } from 'react-i18next';
@@ -26,11 +27,15 @@ const MenuComponent = ({t}) => {
             </div>
             <div className="Menu-Categories">
               <li className="Category">
-                <Link to="/aboutMe" className="link">{t('about me')}</Link>
+                <NavLink to="/aboutMe" className="link" activeStyle={{ color: 'white' }}>
+                  {t('about me')}
+                </NavLink>
               </li>
               <span>/</span>
               <li className="Category">
-                <Link to="/projects" className="link">{t('my projects')}</Link>
+                <NavLink to="/projects" className="link" activeStyle={{ color: 'white' }}>
+                  {t('my projects')}
+                </NavLink>
               </li>
             </div>
           </div>

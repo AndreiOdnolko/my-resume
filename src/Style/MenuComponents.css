@@ -34,17 +34,18 @@
 }
 .Wrapper-Menu .Menu-Categories .Category {
   list-style-type: none;
-  padding: 0 5px;
+  padding: 0 3px;
   text-align: center;
+}
+.Wrapper-Menu .Menu-Categories .Category .active {
+  font-weight: bold;
+  border-bottom: 1px solid white;
 }
 .Wrapper-Menu .Menu-Categories .Category .link {
   text-decoration: none;
   font-weight: bold;
   color: #c5c2c2;
   font-size: 20px;
-}
-.Wrapper-Menu .Menu-Categories .Category .link:active {
-  color: white;
 }
 .Wrapper-Menu .Menu-Categories .Category .link:hover {
   color: white;

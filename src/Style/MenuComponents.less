@@ -32,28 +32,29 @@
     padding-left: 40px;
     .Category {
       list-style-type: none;
-      padding: 0 5px;
+      padding: 0 3px;
       text-align: center;
+      .active{
+        font-weight: bold;
+        border-bottom: 1px solid white;
+      }
       .link {
         text-decoration: none;
         font-weight: bold;
         color: #c5c2c2;
-        font-size: 20px;
-        &:active {
-          color: white;
-        } 
+        font-size: 20px;         
         &:hover {
           color: white;
-        }       
-      }
-                  
+        }
+        
+      }                       
     }
     span {
       font-size: 20px;
       color: #999595;
-
     }
   }
+  
 }
 @media screen and (max-width: 550px) {
   .Wrapper-Menu {
