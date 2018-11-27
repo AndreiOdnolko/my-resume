@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/my-resume/static/media/photo.74be3c0c.jpg"
   },
   {
-    "revision": "256f6b3368da4e8fb514",
-    "url": "/my-resume/static/css/main.0721c103.chunk.css"
+    "revision": "78423b2ca98cfe911eab",
+    "url": "/my-resume/static/css/main.8d8711ad.chunk.css"
   },
   {
     "revision": "15529b53ed2290741110",
@@ -24,16 +24,16 @@ self.__precacheManifest = [
     "url": "/my-resume/static/media/russia.c6c045c4.png"
   },
   {
-    "revision": "256f6b3368da4e8fb514",
-    "url": "/my-resume/static/js/main.256f6b33.chunk.js"
-  },
-  {
-    "revision": "7e7f6dd5310e4759228286c280dd01d3",
-    "url": "/my-resume/static/media/calc.7e7f6dd5.png"
+    "revision": "78423b2ca98cfe911eab",
+    "url": "/my-resume/static/js/main.78423b2c.chunk.js"
   },
   {
     "revision": "ccebbd0a348bae2d9cb6e673bf533463",
     "url": "/my-resume/static/media/todolist.ccebbd0a.png"
+  },
+  {
+    "revision": "7e7f6dd5310e4759228286c280dd01d3",
+    "url": "/my-resume/static/media/calc.7e7f6dd5.png"
   },
   {
     "revision": "7f88740f7211341d98611897e93dc9c9",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/my-resume/static/media/fruitBasket.d3b1b313.png"
   },
   {
-    "revision": "c09da1e93e75d9645c50c2dcc2330c2d",
+    "revision": "9bae5cb12e7a868eb7809c2054b2f0e7",
     "url": "/my-resume/index.html"
   }
 ];
