@@ -31,7 +31,7 @@ const MenuComponent = ({t}) => {
                   {t('about me')}
                 </NavLink>
               </li>
-              <span>/</span>
+              <span>|</span>
               <li className="Category">
                 <NavLink to="/projects" className="link" activeStyle={{ color: 'white' }}>
                   {t('my projects')}
